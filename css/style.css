@@ -145,7 +145,7 @@ body.fixed-menu #burger-menu {
 #navigation {
   position: fixed;
   /*background-color: rgba(74, 195, 191, 0.9);*/
-  background-color: black;
+  background-color: blue;
   
   top: 0px;
   left: 0px;
