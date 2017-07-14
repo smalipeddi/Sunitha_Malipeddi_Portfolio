@@ -281,7 +281,7 @@ body.fixed-menu #burger-menu {
 
 #header {
   height: 158px;
-  background-color:darkred;
+  background-color:black;
   width: 100%;
 }
 
@@ -872,6 +872,7 @@ body.fixed-menu #burger-menu {
   text-align: right;
   padding-right: 54px;
   padding-top: 15px;
+    
 }
 
 .timeline-exp .timeline-wrapper .tl-item .icon {
@@ -910,11 +911,12 @@ body.fixed-menu #burger-menu {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 15px;
-  color: darkred;
+  color: white;
 }
 
 .timeline-exp .timeline-wrapper .tl-item p {
   line-height: 26px;
+  color: darkred;
 }
 
 .timeline-exp .timeline-wrapper .tl-item.pull-right {
@@ -1034,7 +1036,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 26px;
-  color: black;
+  color: darkred;
 }
 
 .pie-progress-wrapper h4 {
@@ -1363,7 +1365,7 @@ input[type="submit"].active {
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .content.no-padding {
