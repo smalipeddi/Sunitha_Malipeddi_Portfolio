@@ -54,7 +54,7 @@ rules used in this template
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #333;
+  background-color: white;
   margin-bottom: 3px;
 }
 
@@ -86,7 +86,7 @@ body.fixed-menu #burger-menu {
   height: 70px;
   line-height: 70px;
   border-radius: 50%;
-  background-color: #333;
+  background-color: darkred;
   text-align: center;
   text-decoration: none;
   position: fixed;
@@ -100,7 +100,7 @@ body.fixed-menu #burger-menu {
   display: inline-block;
   height: 20px;
   width: 2px;
-  background-color: #fff;
+  background-color: darkred;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -128,7 +128,7 @@ body.fixed-menu #burger-menu {
   display: inline-block;
   height: 80px;
   width: 2px;
-  background-color: #fff;
+  background-color: darkred;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -145,7 +145,7 @@ body.fixed-menu #burger-menu {
 #navigation {
   position: fixed;
   /*background-color: rgba(74, 195, 191, 0.9);*/
-  background-color: #34E2DA;
+  background-color: black;
   
   top: 0px;
   left: 0px;
@@ -196,8 +196,8 @@ body.fixed-menu #burger-menu {
   position: relative;
   text-align: center;
   border-radius: 50%;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: darkred;
+  border: 1px solid darkred;
   overflow: hidden;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -227,7 +227,7 @@ body.fixed-menu #burger-menu {
 }
 
 #navigation .nav-wrapper ul li a svg path {
-  fill: #ffffff;
+  fill: darkred;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -250,19 +250,19 @@ body.fixed-menu #burger-menu {
 
 #navigation .nav-wrapper ul li a.active,
 #navigation .nav-wrapper ul li a:hover {
-  background-color: #ffffff;
+  background-color: darkred;
   text-decoration: none;
   transform: scale(1.2);
 }
 
 #navigation .nav-wrapper ul li a.active i,
 #navigation .nav-wrapper ul li a:hover i {
-  color: pink;
+  color: black;
 }
 
 #navigation .nav-wrapper ul li a.active svg path,
 #navigation .nav-wrapper ul li a:hover svg path {
-  fill: pink;
+  fill: darkred;
 }
 
 #navigation .nav-wrapper h4 {
@@ -271,7 +271,7 @@ body.fixed-menu #burger-menu {
   font-size: 75px;
   text-transform: uppercase;
   letter-spacing: 9px;
-  color: #ffffff;
+  color: darkred;
   position: absolute;
   left: 0px;
   right: 0px;
@@ -281,7 +281,7 @@ body.fixed-menu #burger-menu {
 
 #header {
   height: 158px;
-  background-color: #f6f6f6;
+  background-color:darkred;
   width: 100%;
 }
 
@@ -299,7 +299,7 @@ body.fixed-menu #burger-menu {
   background-size: contain;
   font-family: 'Oswald';
   font-size: 32px;
-  color: pink;
+  color: darkred;
   text-indent: -9999px;
   margin-right: 32px;
   float: left;
@@ -325,7 +325,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Oswald';
   font-size: 24px;
   font-weight: normal;
-  color: pink;
+  color: darkred;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 5px;
@@ -338,7 +338,7 @@ body.fixed-menu #burger-menu {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin: 0px;
-  color: #7FFF00;
+  color: darkred;
 }
 
 #header .menu-pager {
@@ -359,8 +359,8 @@ body.fixed-menu #burger-menu {
   border-radius: 50%;
   line-height: 38px;
   text-align: center;
-  color: #7FFF00;
-  border: 2px solid #7FFF00;
+  color: black;
+  border: 2px solid darkgreen;
 }
 
 #header .menu-pager li a i {
@@ -370,8 +370,8 @@ body.fixed-menu #burger-menu {
 }
 
 #header .menu-pager li a:hover {
-  color: pink;
-  border-color: pink;
+  color: darkgreen;
+  border-color: darkred;
 }
 /* Helpers and Elements
 ====================================*/
@@ -393,16 +393,16 @@ body.fixed-menu #burger-menu {
 }
 
 .text-light {
-  color: #fff;
+  color: darkred;
 }
 
 .text-light.title-lg,
 .text-light.title-md {
-  color: #fff;
+  color: darkred;
 }
 
 .text-brand {
-  color: pink;
+  color: darkred;
 }
 /* Info box
 ==================================================================*/
@@ -484,7 +484,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Lato';
   font-size: 40px;
   font-weight: bold;
-  color: pink;
+  color: ghostwhite;
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 5px;
@@ -497,23 +497,23 @@ body.fixed-menu #burger-menu {
   font-size: 12px;
   letter-spacing: 1.7px;
   font-weight: normal;
-  color: #fff;
+  color: darkred;
   text-transform: uppercase;
 }
 
 .info-boxes .ib-item.active,
 .info-boxes .ib-item:hover {
-  background-color: pink !important;
+  background-color: black!important;
 }
 
 .info-boxes .ib-item.active .icon,
 .info-boxes .ib-item:hover .icon {
-  color: #fff;
+  color: darkred;
 }
 
 .info-boxes .ib-item.active h3,
 .info-boxes .ib-item:hover h3 {
-  color: #fff;
+  color: darkred;
 }
 
 .info-boxes .ib-item.active .icon-lg,
@@ -542,7 +542,7 @@ body.fixed-menu #burger-menu {
 
 .service-item .icon {
   font-size: 48px;
-  color: #7FFF00;
+  color: black;
   float: left;
 }
 
@@ -626,7 +626,7 @@ body.fixed-menu #burger-menu {
   content: '';
   position: absolute;
   height: 1px;
-  background-color: #fff;
+  background-color: darkred;
   left: 0px;
   right: 37px;
   top: 0px;
@@ -640,14 +640,14 @@ body.fixed-menu #burger-menu {
   content: '';
   position: absolute;
   height: 1px;
-  background-color: #fff;
+  background-color: darkred;
   left: 37px;
   right: 0px;
   top: 0px;
 }
 
 .testimonial .entry-item {
-  border: 1px solid #fff;
+  border: 1px solid darkred;
   border-top: 0px;
   position: relative;
   padding-top: 50px;
@@ -686,7 +686,7 @@ body.fixed-menu #burger-menu {
 .testimonial .entry-item .avatar .radius-cutter .radius {
   width: 100%;
   height: 74px;
-  border: 1px solid #fff;
+  border: 1px solid darkred;
   border-radius: 50%;
 }
 
@@ -696,7 +696,7 @@ body.fixed-menu #burger-menu {
   font-weight: normal;
   font-style: normal;
   line-height: 24px;
-  color: #fff;
+  color: darkred;
   border: 0px;
   margin: 0px;
   padding: 0px;
@@ -707,7 +707,7 @@ body.fixed-menu #burger-menu {
   display: block;
   margin-top: 10px;
   font-weight: bold;
-  color: pink;
+  color: white;
   font-style: normal;
 }
 
@@ -740,7 +740,7 @@ body.fixed-menu #burger-menu {
 .price-box .entry-item {
   text-align: center;
   padding: 30px;
-  border: 1px solid #7FFF00;
+  border: 1px solid darkred;
   cursor: pointer;
 }
 
@@ -748,7 +748,7 @@ body.fixed-menu #burger-menu {
   display: inline-block;
   width: 140px;
   height: 140px;
-  border: 2px solid #7FFF00;
+  border: 2px solid darkred;
   border-radius: 50%;
   position: relative;
 }
@@ -761,7 +761,7 @@ body.fixed-menu #burger-menu {
   right: 5px;
   bottom: 5px;
   border-radius: 50%;
-  background-color: #7FFF00;
+  background-color: black;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -775,7 +775,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Oswald';
   font-weight: normal;
   font-size: 25px;
-  color: #fff;
+  color: darkred;
   position: relative;
   margin: 0px;
   padding-bottom: 20px;
@@ -789,7 +789,7 @@ body.fixed-menu #burger-menu {
   left: 50%;
   bottom: 10px;
   margin-left: -20px;
-  background-color: #fff;
+  background-color: darkred;
 }
 
 .price-box .entry-item .circle-label p {
@@ -798,7 +798,7 @@ body.fixed-menu #burger-menu {
   font-weight: normal;
   margin: 0px;
   line-height: 15px;
-  color: #fff;
+  color: darkred;
 }
 
 .price-box .entry-item .box-info h4 {
@@ -806,11 +806,11 @@ body.fixed-menu #burger-menu {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid #7FFF00;
+  border-bottom: 1px solid darkgreen;
   padding-bottom: 30px;
   margin-bottom: 30px;
   margin-top: 20px;
-  color: #7FFF00;
+  color: darkred;
 }
 
 .price-box .entry-item .box-info .btn {
@@ -820,30 +820,30 @@ body.fixed-menu #burger-menu {
 
 .price-box.active .entry-item .circle-label,
 .price-box:hover .entry-item .circle-label {
-  border-color: pink;
+  border-color: black;
 }
 
 .price-box.active .entry-item .circle-label::before,
 .price-box:hover .entry-item .circle-label::before {
-  background-color: pink;
+  background-color: black;
 }
 
 .price-box.active .entry-item .box-info h4,
 .price-box:hover .entry-item .box-info h4 {
-  color: pink;
+  color: black;
 }
 
 .price-box.active .entry-item .box-info .btn,
 .price-box:hover .entry-item .box-info .btn {
-  color: #fff;
-  background-color: pink;
+  color: darkred;
+  background-color: black;
 }
 /* Timeline
 ==================================================================*/
 
 .timeline-exp .exp-title {
   text-align: center;
-  color: pink;
+  color: black;
 }
 
 .timeline-exp .exp-title .exp-icon {
@@ -852,7 +852,7 @@ body.fixed-menu #burger-menu {
 }
 
 .timeline-exp .exp-title h4 {
-  color: pink;
+  color: darkred;
   font-family: 'Oswald';
   font-weight: normal;
   font-size: 26px;
@@ -862,7 +862,7 @@ body.fixed-menu #burger-menu {
 
 .timeline-exp .timeline-wrapper {
   position: relative;
-  border-top: 2px solid #7FFF00;
+  border-top: 2px solid darkgreen;
   padding-top: 54px;
   margin-top: 30px;
 }
@@ -878,12 +878,13 @@ body.fixed-menu #burger-menu {
   display: inline-block;
   width: 54px;
   height: 54px;
-  background-color: pink;
+  background-color: white;
   border-radius: 50%;
   font-size: 30px;
   text-align: center;
-  color: #fff;
+  color: darkred;
   position: absolute;
+  border: 2px solid darkred;
   right: -27px;
   top: 0px;
 }
@@ -899,7 +900,7 @@ body.fixed-menu #burger-menu {
   font-size: 15px;
   font-weight: normal;
   text-transform: uppercase;
-  color: #7FFF00;
+  color: darkgreen;
 }
 
 .timeline-exp .timeline-wrapper .tl-item h4 {
@@ -909,7 +910,7 @@ body.fixed-menu #burger-menu {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 15px;
-  color: pink;
+  color: darkred;
 }
 
 .timeline-exp .timeline-wrapper .tl-item p {
@@ -925,11 +926,12 @@ body.fixed-menu #burger-menu {
 .timeline-exp .timeline-wrapper .tl-item.pull-right .icon {
   right: auto;
   left: -27px;
-  background-color: #7FFF00;
+  background-color: black;
+  border: 2px solid white;
 }
 
 .timeline-exp .timeline-wrapper .tl-item.pull-right h4 {
-  color: #7FFF00;
+  color: darkred;
 }
 
 .timeline-exp .timeline-wrapper::before {
@@ -940,7 +942,7 @@ body.fixed-menu #burger-menu {
   margin-left: -1px;
   width: 2px;
   height: 100%;
-  background-color: #7FFF00;
+  background-color: darkgreen;
 }
 
 .timeline-exp .timeline-wrapper > .row + .row {
@@ -963,7 +965,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 14px;
-  color: #7FFF00;
+  color: darkgreen;
   text-transform: uppercase;
   letter-spacing: 1px;
   float: left;
@@ -974,7 +976,7 @@ body.fixed-menu #burger-menu {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 14px;
-  color: #7FFF00;
+  color: darkred;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -986,7 +988,7 @@ body.fixed-menu #burger-menu {
 
 .progress-line .entry-line .current {
   height: 5px;
-  background-color: #7FFF00;
+  background-color: darkgreen;
   width: 0%;
   position: relative;
   top: -5px;
@@ -999,7 +1001,7 @@ body.fixed-menu #burger-menu {
   content: '';
   width: 17px;
   height: 17px;
-  background-color: #7FFF00;
+  background-color: ye;
   border-radius: 50%;
   position: absolute;
   right: -1px;
@@ -1010,7 +1012,7 @@ body.fixed-menu #burger-menu {
   content: '';
   width: 3px;
   height: 3px;
-  background-color: #ffffff;
+  background-color: darkred;
   border-radius: 50%;
   position: absolute;
   right: 6px;
@@ -1025,21 +1027,21 @@ body.fixed-menu #burger-menu {
 }
 
 .pie-progress-wrapper .pie_progress path {
-  stroke: #7FFF00 !important;
+  stroke: darkgreen !important;
 }
 
 .pie-progress-wrapper .pie_progress .pie_progress__number {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 26px;
-  color: #7FFF00;
+  color: black;
 }
 
 .pie-progress-wrapper h4 {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 20px;
-  color: #7FFF00;
+  color: black;
   text-transform: uppercase;
   margin-top: 20px;
 }
@@ -1054,11 +1056,11 @@ body.fixed-menu #burger-menu {
   width: 113px;
   height: 113px;
   display: inline-block;
-  border: 2px solid #7FFF00;
+  border: 2px solid darkred;
   border-radius: 50%;
   font-size: 50px;
   line-height: 113px;
-  color: #7FFF00;
+  color: darkgreen;
   cursor: pointer;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -1081,6 +1083,7 @@ body.fixed-menu #burger-menu {
   display: inline-block;
   width: 42px;
   height: 42px;
+  border : 2px solid darkgreen;
 }
 
 .info-circle .entry-circle svg {
@@ -1090,7 +1093,7 @@ body.fixed-menu #burger-menu {
 }
 
 .info-circle .entry-circle svg path {
-  fill: #7FFF00 !important;
+  fill: darkgreen !important;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -1101,17 +1104,17 @@ body.fixed-menu #burger-menu {
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
-  color: #7FFF00;
+  color: darkred;
   margin-top: 18px;
 }
 
 .info-circle:hover .entry-circle {
-  border-color: pink;
-  background-color: pink;
+  border-color: darkred;
+  background-color: black;
 }
 
 .info-circle:hover .entry-circle i {
-  color: #fff;
+  color: darkred;
 }
 
 .info-circle:hover .entry-circle span {
@@ -1121,11 +1124,11 @@ body.fixed-menu #burger-menu {
 }
 
 .info-circle:hover .entry-circle svg path {
-  fill: #fff !important;
+  fill: darkred !important;
 }
 
 .info-circle:hover h6 {
-  color: pink;
+  color: darkred;
 }
 /* Icon Boxes
 ==================================================================*/
@@ -1146,8 +1149,8 @@ body.fixed-menu #burger-menu {
 
 .icon-boxes .box-item .entry-item {
   position: relative;
-  border: 2px solid #7FFF00;
-  color: #7FFF00;
+  border: 2px solid darkgreen;
+  color: darkred;
 }
 
 .icon-boxes .box-item .entry-item .image-block {
@@ -1183,8 +1186,8 @@ body.fixed-menu #burger-menu {
 
 .icon-boxes .box-item .entry-hover {
   position: absolute;
-  background-color: #7FFF00;
-  color: #fff;
+  background-color: darkred;
+  color: white;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -1196,7 +1199,7 @@ body.fixed-menu #burger-menu {
 }
 
 .icon-boxes .box-item .entry-hover h6 {
-  color: #fff;
+  color: deepblack;
   font-family: 'Lato';
   font-size: 14px;
   font-weight: bold;
@@ -1251,7 +1254,7 @@ body.fixed-menu #burger-menu {
 }
 
 .accordion-container .accordion-group .accordion-header span i {
-  color: #fff;
+  color: darkred;
   position: relative;
   top: -3px;
   left: 1px;
@@ -1272,11 +1275,11 @@ body.fixed-menu #burger-menu {
 }
 
 .accordion-container .accordion-group.active .accordion-header a {
-  color: pink;
+  color: darkred;
 }
 
 .accordion-container .accordion-group.active .accordion-header span {
-  background-color: pink;
+  background-color: darkred;
 }
 
 .accordion-container .accordion-group.active .accordion-header span i {
@@ -1294,12 +1297,12 @@ body.fixed-menu #burger-menu {
 ====================================*/
 
 body {
-  background-color: rgb(6,0,39);
+  background-color: 	black;
   font-family: 'Lato';
   font-weight: normal;
   font-size: 15px;
   line-height: 2em;
-  color: #777777;
+  color: white;
 }
 
 h1,
@@ -1308,18 +1311,18 @@ h3,
 h4,
 h5,
 h6 {
-  color: #7FFF00;
+  color: white
 }
 
 blockquote {
-  border-left: 2px solid pink;
+  border-left: 2px solid darkred;
   margin-left: 50px;
   padding-left: 30px;
   font-size: 17px;
   font-family: 'Lato';
   font-style: italic;
   font-weight: bold;
-  color: #7FFF00;
+  color: darkred;
   line-height: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1328,8 +1331,8 @@ blockquote {
 .btn,
 button,
 input[type="submit"] {
-  background-color: #7FFF00;
-  color: #fff;
+  background-color: darkred;
+  color: white;
   font-family: 'Lato';
   font-size: 13px;
   font-weight: bold;
@@ -1352,8 +1355,8 @@ input[type="submit"]:hover,
 .btn.active,
 button.active,
 input[type="submit"].active {
-  background-color: pink;
-  color: #fff;
+  background-color: darkred;
+  color: white;
 }
 
 .content {
@@ -1400,9 +1403,9 @@ input[type="submit"].active {
 .pagination li a:hover,
 .pagination li span,
 .pagination li span:hover {
-  color: #fff;
-  background-color: pink;
-  border-color: pink;
+  color: darkred;
+  background-color: darkred;
+  border-color: yellow;
 }
 
 .title-404 {
@@ -1428,7 +1431,7 @@ input[type="submit"].active {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: pink;
+  color: darkred;
   position: relative;
   margin: 0px;
   margin-bottom: 40px;
@@ -1441,7 +1444,7 @@ input[type="submit"].active {
   width: 75px;
   left: 0px;
   bottom: -18px;
-  background-color: #7FFF00;
+  background-color: darkred;
 }
 
 .list-details {
@@ -1453,7 +1456,7 @@ input[type="submit"].active {
 
 .list-details strong,
 .list-details b {
-  color: #7FFF00;
+  color: white;
 }
 
 .labels {
@@ -1466,7 +1469,7 @@ input[type="submit"].active {
   display: inline-block;
   font-family: 'Lato';
   font-size: 12px;
-  color: #7FFF00;
+  color: darkred;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 12px;
@@ -1498,7 +1501,7 @@ input[type="submit"].active {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: darkred;
   top: 50%;
   left: -2px;
   position: absolute;
@@ -1506,12 +1509,12 @@ input[type="submit"].active {
 }
 
 .labels a:hover {
-  background-color: pink;
-  color: #fff;
+  background-color: darkred;
+  color: white;
 }
 
 .labels a:hover::before {
-  border-right-color: pink;
+  border-right-color: darkred;
 }
 
 [data-bg-image] {
@@ -1543,7 +1546,7 @@ input[type="submit"].active {
   font-weight: normal;
   line-height: 1.3em;
   letter-spacing: 1px;
-  color: pink;
+  color: darkred;
   margin-bottom: 20px;
 }
 
@@ -1603,8 +1606,8 @@ ul.socials li a {
   width: 43px;
   height: 43px;
   line-height: 43px;
-  background-color: #7FFF00;
-  color: #fff;
+  background-color: darkred;
+  color: white;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -1615,7 +1618,7 @@ ul.socials li a {
 }
 
 ul.socials li a:hover {
-  background-color: pink;
+  background-color: darkred;
 }
 
 form .col-md-6:nth-child(2n+1) {
@@ -1634,7 +1637,7 @@ form textarea {
   font-family: 'Lato';
   font-size: 13px;
   text-transform: uppercase;
-  color: #7FFF00;
+  color: darkgreen;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -1643,8 +1646,8 @@ form textarea {
 form input:not([type="submit"]):focus,
 form textarea:focus {
   outline: none;
-  border-bottom-color: pink;
-  color: pink;
+  border-bottom-color: darkred;
+  color: darkred;
 }
 
 form textarea {
@@ -1707,13 +1710,13 @@ address table td:first-child {
   bottom: 0px;
   left: 30px;
   right: 0px;
-  background-color: #ffffff;
+  background-color: darkredfff;
 }
 
 .blog-posts article.post-item .entry-item .entry-meta .entry-date {
   display: block;
   float: left;
-  color: #fff;
+  color: darkred;
   width: 50px;
   text-align: center;
   font-family: 'Lato';
@@ -1722,7 +1725,7 @@ address table td:first-child {
 }
 
 .blog-posts article.post-item .entry-item .entry-meta .entry-date .day {
-  background-color: pink;
+  background-color: darkred;
   display: block;
   height: 50px;
   line-height: 50px;
@@ -1730,7 +1733,7 @@ address table td:first-child {
 }
 
 .blog-posts article.post-item .entry-item .entry-meta .entry-date .month {
-  background-color: #7FFF00;
+  background-color: darkgreen;
   display: block;
   height: 50px;
   line-height: 50px;
@@ -1754,12 +1757,12 @@ address table td:first-child {
   margin: 0px;
   max-height: 44px;
   overflow: hidden;
-  color: #7FFF00;
+  color: darkgreen;
 }
 
 .blog-posts article.post-item .entry-item .entry-meta .entry-title h1 a,
 .blog-posts article.post-item .entry-item .entry-meta .entry-title h3 a {
-  color: #7FFF00;
+  color: ghostwhite;
 }
 
 .blog-posts article.post-item .entry-item .entry-meta .entry-title .entry-author {
@@ -1792,8 +1795,8 @@ address table td:first-child {
 .blog-posts article.post-item .entry-item .entry-hover .post-format {
   font-size: 36px;
   display: inline-block;
-  background-color: pink;
-  color: #fff;
+  background-color: darkred;
+  color: darkred;
   padding: 15px 20px;
   border-radius: 3px;
   line-height: 36px;
@@ -1817,18 +1820,18 @@ address table td:first-child {
 
 .blog-posts .blog-links a {
   display: block;
-  color: #fff;
+  color: darkred;
   text-align: center;
   font-size: 13px;
   font-family: 'Lato';
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #7FFF00;
+  background-color: darkgreen;
   line-height: 40px;
 }
 
 .blog-posts .blog-links .link-next {
-  background-color: pink;
+  background-color: darkred;
 }
 
 .blog-content .meta-blocks {
@@ -1838,8 +1841,8 @@ address table td:first-child {
 
 .blog-content .meta-blocks span {
   display: inline-block;
-  background-color: pink;
-  color: #fff;
+  background-color: darkred;
+  color: darkred;
   font-family: 'Lato';
   font-weight: normal;
   font-size: 11px;
@@ -1863,8 +1866,8 @@ address table td:first-child {
 
 .blog-content .category-blocks a {
   display: inline-block;
-  background-color: pink;
-  color: #fff;
+  background-color: darkred;
+  color: darkred;
   font-family: 'Lato';
   font-weight: normal;
   font-size: 13px;
@@ -1880,7 +1883,7 @@ address table td:first-child {
   font-family: 'Lato';
   font-size: 16px;
   font-weight: bold;
-  color: #7FFF00;
+  color: darkgreen;
   text-transform: uppercase;
 }
 
@@ -1889,8 +1892,8 @@ address table td:first-child {
   width: 34px;
   height: 34px;
   line-height: 34px;
-  background-color: #7FFF00;
-  color: #fff;
+  background-color: darkgreen;
+  color: darkred;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -1905,7 +1908,7 @@ address table td:first-child {
 }
 
 .blog-content .share-blocks a:hover {
-  background-color: pink;
+  background-color: darkred;
 }
 /* Comments
 ====================================*/
@@ -1914,7 +1917,7 @@ address table td:first-child {
   font-family: 'Oswald';
   font-size: 22px;
   font-weight: normal;
-  color: pink;
+  color: darkred;
   text-transform: uppercase;
   margin-bottom: 50px;
   letter-spacing: 1px;
@@ -1959,7 +1962,7 @@ address table td:first-child {
   font-family: 'Lato';
   font-size: 14px;
   font-style: italic;
-  color: pink;
+  color: darkred;
   text-transform: uppercase;
 }
 
@@ -1972,7 +1975,7 @@ address table td:first-child {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #7FFF00;
+  color: darkgreen;
   display: block;
 }
 
@@ -2000,7 +2003,7 @@ address table td:first-child {
   font-family: 'Oswald';
   font-size: 22px;
   font-weight: normal;
-  color: pink;
+  color: darkred;
   text-transform: uppercase;
   margin-bottom: 50px;
   letter-spacing: 1px;
@@ -2022,7 +2025,7 @@ address table td:first-child {
   font-family: 'Lato';
   font-size: 13px;
   text-transform: uppercase;
-  color: #7FFF00;
+  color: darkgreen;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -2031,8 +2034,8 @@ address table td:first-child {
 #respond .comment-form input:not([type="submit"]):focus,
 #respond .comment-form textarea:focus {
   outline: none;
-  border-bottom-color: pink;
-  color: pink;
+  border-bottom-color: darkred;
+  color: darkred;
 }
 
 #respond .comment-form textarea {
@@ -2092,7 +2095,7 @@ address table td:first-child {
 }
 
 .portfolio-posts .folio-item .entry-item .entry-hover h3 {
-  color: #fff;
+  color: darkred;
   font-family: 'Lato';
   font-weight: bold;
   font-size: 26px;
@@ -2105,7 +2108,7 @@ address table td:first-child {
 }
 
 .portfolio-posts .folio-item .entry-item .entry-hover .category {
-  color: #fff;
+  color: darkred;
   font-size: 14px;
   line-height: 24px;
   font-family: 'Lato';
@@ -2115,12 +2118,12 @@ address table td:first-child {
 }
 
 .portfolio-posts .folio-item .entry-item .entry-hover .permalink {
-  color: #fff;
+  color: darkred;
   display: inline-block;
   width: 46px;
   height: 46px;
   line-height: 46px;
-  border: 2px solid #fff;
+  border: 2px solid darkred;
   border-radius: 50%;
   font-size: 28px;
   margin-top: 40px;
@@ -2152,18 +2155,18 @@ address table td:first-child {
 
 .portfolio-links a {
   display: block;
-  color: #fff;
+  color: darkred;
   text-align: center;
   font-size: 13px;
   font-family: 'Lato';
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #7FFF00;
+  background-color: darkgreen;
   line-height: 40px;
 }
 
 .portfolio-links .link-next {
-  background-color: pink;
+  background-color: white;
 }
 /* Widgets
 ====================================*/
@@ -2201,12 +2204,12 @@ address table td:first-child {
 
 .widget ul li a,
 .widget ol li a {
-  color: rgba(119, 119, 119, 0.8);
+  color: darkdarkred;
 }
 
 .widget ul li .count{
   font-size: 10px;
-  color: #fff;
+  color: darkred;
   background-color: rgba(119, 119, 119, 0.5);
   display: inline-block;
   border-radius: 50%;
@@ -2219,10 +2222,10 @@ address table td:first-child {
 
 .widget ul li:hover a{
   text-decoration: none;
-  color: pink;
+  color: darkred;
 }
 .widget ul li:hover .count{
-  background-color: pink;
+  background-color: paleturquoise;
 }
 
 .widget .widget-tags{
@@ -2231,13 +2234,13 @@ address table td:first-child {
 .widget .widget-tags a{
   display: inline-block;
   background-color: rgba(119, 119, 119, 0.5);
-  color: #fff;
+  color: darkred;
   padding: 4px 12px;
   margin-right: 6px;
   margin-bottom: 8px;
 }
 .widget .widget-tags a:hover{
-  background-color: pink;
+  background-color: paleturquoise;
   text-decoration: none;
 }
 
@@ -2251,7 +2254,7 @@ address table td:first-child {
   font-weight: 300;
   font-size: 13px;
   text-transform: uppercase;
-  color: #777777;
+  color: orangedarkred;
   padding: 15px 20px;
   padding-right: 40px;
   width: 100%;
@@ -2281,7 +2284,7 @@ address table td:first-child {
   font-size: 14px;
   line-height: 1.7em;
   font-family: 'Lato';
-  color: #7FFF00;
+  color: darkred;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -2291,7 +2294,7 @@ address table td:first-child {
 }
 
 #footer a {
-  color: pink;
+  color: white;
   text-decoration: none;
 }
 
@@ -2312,14 +2315,14 @@ address table td:first-child {
 
 #footer ul.social li a {
   font-size: 30px;
-  color: rgba(51, 51, 51, 0.3);
+  color: darkred;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 
 #footer ul.social li a:hover {
-  color: pink;
+  color: darkred;
 }
 /* Responsive
 ====================================*/
