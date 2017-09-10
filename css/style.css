@@ -45,6 +45,19 @@ rules used in this template
 ====================================*/
 
 /* Main Menu Handler */
+ /* Main Menu Handler */
+@font-face {
+   font-family: 'myFirstFont';
+    
+   src: url(../vendors/sansation/Sansation_Light.ttf);
+}
+
+p {
+   font-family: 'myFirstFont';
+    font-size :1.3em;
+    letter-spacing :normal;
+    word-spacing: 5px;
+}
 .burger-menu {
   display: inline-block;
   width: 24px;
@@ -916,7 +929,7 @@ body.fixed-menu #burger-menu {
 
 .timeline-exp .timeline-wrapper .tl-item p {
   line-height: 26px;
-  color: darkred;
+  color: beige;
 }
 
 .timeline-exp .timeline-wrapper .tl-item.pull-right {
@@ -948,7 +961,7 @@ body.fixed-menu #burger-menu {
 }
 
 .timeline-exp .timeline-wrapper > .row + .row {
-  margin-top: -81px;
+ /* margin-top: -81px;*/
 }
 /* Timeline
 ==================================================================*/
