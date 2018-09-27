@@ -1,7 +1,7 @@
 /*
                   STYLE.CSS
 ==================================================
-This is main CSS file that contains custom style 
+This is main CSS file that contains custom style
 rules used in this template
 ==================================================
 
@@ -48,7 +48,7 @@ rules used in this template
  /* Main Menu Handler */
 @font-face {
    font-family: 'myFirstFont';
-    
+
    src: url(../vendors/sansation/Sansation_Light.ttf);
 }
 
@@ -159,7 +159,7 @@ body.fixed-menu #burger-menu {
   position: fixed;
   /*background-color: rgba(74, 195, 191, 0.9);*/
   background-color: black;
-  
+
   top: 0px;
   left: 0px;
   right: 0px;
@@ -305,7 +305,7 @@ body.fixed-menu #burger-menu {
 #header #logo {
   display: block;
   line-height: 158px;
-  width: 88px;
+  /* width: 88px; */
   background-image: url(images/logo.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -885,7 +885,7 @@ body.fixed-menu #burger-menu {
   text-align: right;
   padding-right: 54px;
   padding-top: 15px;
-    
+
 }
 
 .timeline-exp .timeline-wrapper .tl-item .icon {
